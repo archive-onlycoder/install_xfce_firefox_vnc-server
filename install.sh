@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install xfce4-panel xfdesktop4 xfwm4 xfce4-settings xfce4-session tigervnc-standalone-server firefox nmap;
+apt install xfce4-panel xfdesktop4 xfwm4 xfce4-settings xfce4-session tigervnc-standalone-server chromium-browser nmap;
 echo "#!/bin/bash
 xrdb $HOME/.Xresources
 startxfce4 &" > ~/.vnc/xstartup;
